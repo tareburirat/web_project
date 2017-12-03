@@ -516,7 +516,7 @@ a.simpleCart_empty {
 }
 
 .grid figure h3 span {
-	color:#ffc229;
+	color:#FF766D;
 }
 .grid figure h3 i {
 	display: block;
@@ -683,7 +683,7 @@ p.est{
     text-decoration: none;
 }
 .new-collections-grid1 h4 a:hover{
-	color:#D8703F;
+	color:#FF766D;
 }
 .new-collections-grid1 p{
 	font-size:14px;
@@ -693,7 +693,7 @@ p.est{
 }
 .new-collections-grid1-left p a,.occasion-cart a{
 	font-size: 14px;
-    color: #D8703F;
+    color: #FF766D;
     margin: 0;
     text-decoration: none;
     text-transform: uppercase;
@@ -805,7 +805,7 @@ p.est{
 .new-collections-grid1-image-pos a{
 	padding:10px 20px;
 	color:#fff;
-	background:#d8703f;
+	background:#FF766D;
 	text-decoration:none;
 	font-size: 14px;
 }
@@ -860,7 +860,7 @@ p.est{
 }
 .collections-bottom-grid h3{
 	font-size: 3em;
-    color: #fff;
+    color: #FF766D;
     margin: 0;
     line-height: 1.3em;
 	font-family: 'Cabin', sans-serif;
