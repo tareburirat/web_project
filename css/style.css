@@ -174,7 +174,7 @@ ul.social-icons li a.instagram:hover{
     padding: 0;
 }
 ul.multi-column-dropdown h6 {
-    font-size: 1.5em;
+    font-size: 1em;
     color:#222222;
     margin: 0 0 1em;
     padding-bottom: 1em;
@@ -972,6 +972,7 @@ p.est{
 	color:#999;
 	line-height:1.8em;
 	margin:0;
+	text-decoration: underline;
 }
 .footer-grid a{
 	font-size:14px;
