@@ -732,7 +732,7 @@ p.est{
 .new-collections-grid1-left p {
 	margin: 0 !important;
     text-transform: capitalize;
-    color: #000;
+    color: #FF766D;
     font-size:1.2em !important;
 }
 .new-collections {
@@ -1413,7 +1413,7 @@ input#amount {
 	text-align: center;
 }
 .men-position-pos h5 span{
-	color:#ffc229;
+	color:#FF766D;
 	font-weight:600;
 }
 /*-- //products --*/
@@ -1812,6 +1812,12 @@ ul.wmuSliderPagination {
 .description p{
 	font-size:14px;
 	color:#999;
+	line-height:1.8em;
+	margin:0.5em 0 0;
+}
+.description b{
+	font-size:14px;
+	color:#FF766D;
 	line-height:1.8em;
 	margin:0.5em 0 0;
 }
