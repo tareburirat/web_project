@@ -38,7 +38,7 @@ body a:hover{
 	padding:2em 0;
 }
 .header-grid-right{
-	float: right;;
+	float: right;
 }
 .header-grid-right ul li{
 	display:inline-block;
@@ -60,7 +60,23 @@ body a:hover{
 	color:#ff766d !important;
 }
 .header-grid-left{
-	float:left;;
+	float: left;
+}
+.header-grid-left ul li{
+	display:inline-block;
+	font-size:14px;
+	color:#999;
+	margin: 0 1em;
+}
+.header-grid-left ul li i{
+	left:-.5em;
+}
+.header-grid-left ul li a{
+	text-decoration:none;
+	color:#999;
+}
+.header-grid-left ul li a:hover{
+	color:#ff766d;
 }
 ul.social-icons li{
 	display:inline-block;
