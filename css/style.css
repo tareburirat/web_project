@@ -2075,7 +2075,7 @@ label.radio {
     margin: 1.5em 0 0;
 }
 .login-form-grids input[type="submit"]:hover{
-	background:#999;
+	background:#ffc229;
 }
 .login-form-grids ::-webkit-input-placeholder{
 	color:#999;
