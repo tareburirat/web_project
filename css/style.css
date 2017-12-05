@@ -2007,7 +2007,7 @@ label.radio {
 .add-review input[type="submit"]{
 	outline:none;
 	padding:10px 0;
-	background:#ffc229;
+	background:#999;
 	border:none;
 	width:30%;
 	font-size:1em;
