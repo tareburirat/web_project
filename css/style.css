@@ -1273,8 +1273,8 @@ ul.paging {
     margin: 4em auto 0;
 }
 .paging > .active > a,.paging > .active > a:hover {
-    background-color:#ffc229;
-    border-color:#EDB62B;
+    background-color:#ff766d;
+    border-color:#ff766d;
 }
 .pagination > li > a{
 	color:#212121;
@@ -2369,7 +2369,7 @@ td.invert-image a img {
 /*-- quantity-end --*/
 .checkout-left-basket h4{
 	padding: 1em;
-    background:#FFC229;
+    background:#ff766d;
     font-size: 1.1em;
     color: #fff;
     text-transform: uppercase;
