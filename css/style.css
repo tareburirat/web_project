@@ -4,6 +4,136 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+.wrapper.content {
+    background-color: #fff;
+    box-shadow: 0 0.2rem 0.4rem rgba(0,0,0,.09);
+    padding: 20px 48px;
+}
+.wrapper {
+	width: 1200px;
+	height: auto;
+    margin: 0 auto;
+}
+:not(input):not(textarea) {
+    -webkit-tap-highlight-color: transparent;
+}
+.image-manager .shopee-dropzone {
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.shopee-dropzone {
+    background: #fafafa;
+    border: .1rem dashed #bababa;
+    height: 200px;
+    width: 200px;
+    color: #bababa;
+    transition: color .25s ease,border-color .25s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.shopee-dropzone__drop-prompt {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+.shopee-dropzone__icon--simple {
+    height: 40px;
+}
+.shopee-dropzone__icon {
+    height: 56px;
+}
+.shopee-dropzone__drop-prompt .subtitle {
+    height: 40px;
+    line-height: 40px;
+    transition: color .25s ease;
+}
+.image-manager__item {
+    position: relative;
+    cursor: move;
+    border-radius: 2px;
+    border: 1px solid #e8e8e8;
+    height: 0;
+    padding-top: 100%;
+}
+.shopee-dropzone__icon--simple svg {
+    width: 40px;
+    height: 40px;
+}
+.shopee-dropzone__icon svg {
+    width: 56px;
+    height: 56px;
+    fill: #bababa;
+    transition: fill .25s ease;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.image-manager {
+    position: relative;
+}
+.edit-input, .edit-label, .edit-value {
+    min-height: 40px;
+    color: #666;
+}
+.edit-input, .shopee-subtab>a {
+    line-height: 24px;
+}
+.image-manager .sortable-items-shadow {
+    position: static;
+}
+.block-grid-5>*, .route-portal-product-detail-edit .image-manager .sortable-items>*, .route-portal-product-new .image-manager .sortable-items>*, .route-portal-product-unpublished .image-manager .sortable-items>* {
+    -webkit-flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    width: 20%;
+    max-width: 20%;
+}
+.image-manager li {
+    list-style: none;
+}
+.sortable-items>li {
+    padding: 0 5px;
+    margin-bottom: 16px;
+}
+.image-manager .sortable-items-shadow .image-manager__item {
+    border: none;
+}
+.image-manager__item {
+    position: relative;
+    cursor: move;
+    border-radius: 2px;
+    border: 1px solid #e8e8e8;
+    height: 0;
+    padding-top: 100%;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin: 30px 0 15px;
+}
+.wrapper.content .container {
+    display: block;
+    width: 100%;
+}
+
+
+
+
 html, body{
     font-size: 100%;
 	background:	#fff;
@@ -376,6 +506,10 @@ a.simpleCart_empty {
 }
 /*-- //banner --*/
 /*-- banner-bottom --*/
+.add{
+	padding:2em 0;
+	color: #999;
+}
 .banner-bottom,.new-collections,.checkout,.collections-bottom,.timer,.register,.products,.typo,.mail,.single,.login,.single-related-products{
 	padding:5em 0;
 }
@@ -2079,6 +2213,10 @@ label.radio {
 /*-- //Ratings --*/
 /*-- //single --*/
 /*-- login --*/
+
+
+
+
 .login-form-grids{
 	width: 45%;
     padding: 3em;
