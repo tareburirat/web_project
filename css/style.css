@@ -1669,10 +1669,14 @@ section#tables  p {
 .table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
   padding: 15px!important;
 }
-.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, 
+.table > thead > tr > td, .table > tbody > tr > td a , .table > tfoot > tr > td {
   font-size: 0.9em;
   color: #999;
   border-top: none !important;
+}
+.table > tbody > tr > td a:hover{
+	color: #FF766D;
 }
 .tab-content > .active {
   display: block;
